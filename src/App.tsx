@@ -17,7 +17,7 @@ function App() {
           type={SelectableButtonTypes.Important}
           text="Select me!!"
           action={(selected) => {
-            console.log(selected)
+            alert(selected)
           }}
         />
         <BorderedBox title="Hello" onClick={() => alert("Hello")} />

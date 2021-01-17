@@ -1,0 +1,33 @@
+.form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s all;
+  background-color: #282c34;
+}
+
+.form--success {
+  background-color: #18581f;
+}
+
+.form-error {
+  background-color: #7e2f1f;
+}
+
+.label {
+  display: block;
+  padding: 15px;
+}
+
+.answer { 
+  color: rgba(255, 255, 255, 0);
+  transition: 0.05s all;
+  padding: 15px; 
+}
+
+.answer--show {  
+  color: rgba(255, 255, 255, 0.4);
+}

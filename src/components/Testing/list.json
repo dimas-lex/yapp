@@ -1,0 +1,404 @@
+[
+  {
+     "label": "kogo? czego бутилкі молока",
+    "answer": "butelka mleka"
+  },
+  {
+     "label": "kogo? czego торба цукру",
+    "answer": "torebka cukru"
+  },
+  {
+     "label": "kogo? czego целишка вина",
+    "answer": "kieliszek wina"
+  },
+  {
+     "label": "kogo? czego пачка сигарет",
+    "answer": "paczka papierosów"
+  },
+  {
+     "label": "kogo? czego 10 де ковбаси",
+    "answer": "10 dag kiełbasy"
+  },
+  {
+     "label": "kogo? czego кілограм сиру",
+    "answer": "kilo sera"
+  },
+  {
+     "label": "kogo? czego багато фруктів",
+    "answer": "dużo owoców"
+  },
+  {
+     "label": "kogo? czego мало сонця",
+    "answer": "mało słońca"
+  },
+  {
+     "label": "kogo? czego пари яблук",
+    "answer": "parę jabłek"
+  },
+  {
+     "label": "kogo? czego кілька помилок",
+    "answer": "kilka błędów"
+  },
+  {
+     "label": "kogo? czego небагато часу",
+    "answer": "niewiele czasu"
+  },
+  {
+     "label": "kogo? czego трошки серплівості",
+    "answer": "trochę cierpliwości"
+  },
+  {
+     "label": "kogo? czego двух студентув",
+    "answer": "dwóch studentów"
+  },
+  {
+     "label": "kogo? czego трьох братів",
+    "answer": "trzech braci"
+  },
+  {
+     "label": "kogo? czego чьотирьох кузинув",
+    "answer": "czterech kuzynów"
+  },
+  {
+     "label": "kogo? czego пять туристів",
+    "answer": "pięciu turystów"
+  },
+  {
+     "label": "kogo? czego десять хлопців",
+    "answer": "dziesięciu chłopców"
+  },
+  {
+     "label": "kogo? czego пять Студентек",
+    "answer": "pięć studentek"
+  },
+  {
+     "label": "kogo? czego шість книжок",
+    "answer": "sześć skiążek"
+  },
+  {
+     "label": "kogo? czego сім туристів",
+    "answer": "siedem tygrysów"
+  },
+  {
+     "label": "kogo? czego вісім зошитів",
+    "answer": "osiem zeszytów"
+  },
+  {
+     "label": "kogo? czego десять яблук",
+    "answer": "dziesięć jajek"
+  },
+  {
+     "label": "kogo? czego завидую вам тої вспанялох подорожі до африкі",
+    "answer": "zazdroszczę wam tej wspaniałej podróży do afryki"
+  },
+  {
+     "label": "kogo? czego без цукру",
+    "answer": "bez cukru"
+  },
+  {
+     "label": "kogo? czego для своєї мати",
+    "answer": "dla swojej matki"
+  },
+  {
+     "label": "kogo? czego непрацює від місяця",
+    "answer": "nieczynne od miesiąca"
+  },
+  {
+     "label": "kogo? czego закритий до середи",
+    "answer": "zamknięty od środy"
+  },
+  {
+     "label": "kogo? czego біля великого стадіону",
+    "answer": "koło wielkiego stadionu"
+  },
+  {
+     "label": "kogo? czego навпроти малого парку",
+    "answer": "naprzeciwko małego parku"
+  },
+  {
+     "label": "kogo? czego посеред красивих квітів",
+    "answer": "wśród pięknych kwiatów"
+  },
+  {
+     "label": "kogo? czego у дядька",
+    "answer": "u wujka"
+  },
+  {
+     "label": "kogo? czego зі школи",
+    "answer": "ze szkoły"
+  },
+  {
+     "label": "kogo? czego з поводу аварії",
+    "answer": "z powodu awarii"
+  },
+  {
+     "label": "kogo? czego під час грози",
+    "answer": "podczas burzy"
+  },
+  {
+     "label": "kogo? czego крім цебулі",
+    "answer": "oprócz cebuli"
+  },
+  {
+     "label": "kogo? czego жичими вам веселих свят",
+    "answer": "życzymy wam wiesiołych świąt"
+  },
+  {
+     "label": "kogo? czego шукаю мого ключа",
+    "answer": "szukam mojego klucza"
+  },
+  {
+     "label": "kogo? czego боїться грози",
+    "answer": "boi się burzy"
+  },
+  {
+     "label": "kogo? czego потребуємо зеленої фарби",
+    "answer": "potrzebujemy zielonej farby"
+  },
+  {
+     "label": "kogo? czego уникати сонця",
+    "answer": "unikać słońca"
+  },
+  {
+     "label": "kogo? czego прагнути щастя",
+    "answer": "pragną szczięścia"
+  }, 
+  {
+     "label": "kogo? czego сподівамися милих гостей",
+    "answer": "spodziewamy się miłych gości"
+  },
+  {
+     "label": "kogo? czego слухаю концерту",
+    "answer": "słucham koncertu"
+  },
+  {
+     "label": "kogo? czego забуваю окулярів",
+    "answer": "zapominam okularów"
+  },
+  {
+     "label": "kogo? czego бажають підвишки",
+    "answer": "żądają podwyżki"
+  },
+  {
+     "label": "kogo? czego жалкує тамтих хвиль",
+    "answer": "żałuję tamtych chwyli"
+  },
+  {
+     "label": "kogo? czego собака стереже дім",
+    "answer": "pies pilnuje domu"
+  },
+  {
+     "label": "kogo? czego важливи документи",
+    "answer": "ważnego dokumentu"
+  },
+  {
+     "label": "kogo? czego порцелянового слона",
+    "answer": "porcelanowego słonia"
+  },
+  {
+     "label": "kogo? czego бездомного кота",
+    "answer": "bezdomnego kota"
+  },
+  {
+     "label": "kogo? czego правдивого актора",
+    "answer": "prawdziwego artysty"
+  },
+  {
+     "label": "kogo? czego нового власника",
+    "answer": "nowego właściciela"
+  },
+  {
+     "label": "kogo? czego славного лікаря",
+    "answer": "sławnego lekarza"
+  },
+  {
+     "label": "kogo? czego милего пана",
+    "answer": "miłego pana"
+  },
+  {
+     "label": "kogo? czego lm. ночі лічба і поєдинча",
+    "answer": "nocy"
+  },
+  {
+    "label": "kogo? czego lm подвірек",
+   "answer": "podwórzy"
+ },{
+  "label": "kogo? czego подвіря (одно)",
+ "answer": "podwórza"
+},
+  {
+     "label": "kogo? czego lm кавярні",
+    "answer": "kawiarni"
+  },
+  {
+     "label": "kogo? czego lm жон",
+    "answer": "żon"
+  },
+  {
+     "label": "kogo? czego lm задань",
+    "answer": "zdań"
+  },
+  {
+     "label": "kogo? czego lm учителей",
+    "answer": "nauczycieli"
+  },
+  {
+     "label": "kogo? czego lm коней",
+    "answer": "koni"
+  },
+  {
+     "label": "kogo? czego lm листя",
+    "answer": "liści"
+  },
+  {
+     "label": "kogo? czego lm покоїв",
+    "answer": "pokoi"
+  },
+  {
+     "label": "kogo? czego пана",
+    "answer": "pana"
+  },
+  {
+     "label": "kogo? czego годинника",
+    "answer": "zegara"
+  },
+  {
+     "label": "kogo? czego олівця",
+    "answer": "ołówka"
+  },
+  {
+     "label": "kogo? czego картоплі (однина)",
+    "answer": "ziemniaka"
+  },
+  {
+     "label": "kogo? czego зошиту",
+    "answer": "zeszytu"
+  },
+  {
+     "label": "kogo? czego столу",
+    "answer": "stołu"
+  },
+  {
+     "label": "kogo? czego паперу",
+    "answer": "papieru"
+  },
+  {
+     "label": "kogo? czego торту",
+    "answer": "tortu"
+  },
+  {
+     "label": "kogo? czego яблука",
+    "answer": "jabłka"
+  },
+  {
+     "label": "kogo? czego пива",
+    "answer": "piwa"
+  },
+  {
+     "label": "kogo? czego сонця",
+    "answer": "słońca"
+  },
+  {
+     "label": "kogo? czego ножа",
+    "answer": "noża"
+  },
+  {
+     "label": "kogo? czego вилки",
+    "answer": "widelca"
+  },
+  {
+     "label": "kogo? czego тарілки",
+    "answer": "talerza"
+  },
+  {
+     "label": "kogo? czego носа",
+    "answer": "nosa"
+  },
+  {
+     "label": "kogo? czego шлунка",
+    "answer": "żołądka"
+  },
+  {
+     "label": "kogo? czego вроцлава",
+    "answer": "wrocławia"
+  },
+  {
+     "label": "kogo? czego zbiór publikacji prasowych ukazujący się codziennie.",
+    "answer": "dziennika"
+  },
+  {
+     "label": "kogo? czego століка",
+    "answer": "stolika"
+  },
+  {
+    "label": "kogo? czego папірця",
+   "answer": "papierka"
+ }, {
+  "label": "kogo? czego паперу",
+ "answer": "papieru"
+},
+  {
+     "label": "kogo? czego піску",
+    "answer": "piasku"
+  },
+  {
+     "label": "kogo? czego маку",
+    "answer": "maku"
+  },
+  {
+     "label": "kogo? czego тлуму",
+    "answer": "tłumu"
+  },
+  {
+     "label": "kogo? czego лісу",
+    "answer": "lasu"
+  },
+  {
+     "label": "kogo? czego сну",
+    "answer": "snu"
+  },
+  {
+     "label": "kogo? czego смутку",
+    "answer": "smutku"
+  },
+  {
+     "label": "kogo? czego трамваю",
+    "answer": "tramwaju"
+  },
+  {
+     "label": "kogo? czego бару",
+    "answer": "baru"
+  },
+  {
+     "label": "kogo? czego Лондину",
+    "answer": "Londynu"
+  },
+  {
+     "label": "kogo? czego ПАрижа",
+    "answer": "Paryża"
+  },
+  {
+     "label": "kogo? czego Берліна",
+    "answer": "Berlina"
+  },
+  {
+     "label": "kogo? czego Риму",
+    "answer": "Rzymu"
+  },
+  {
+     "label": "kogo? czego рахунку",
+    "answer": "rachunku"
+  },
+  {
+     "label": "kogo? czego вівторку",
+    "answer": "wtorku"
+  },
+  {
+     "label": "kogo? czego п'ятниці ",
+    "answer": "piątku"
+  },
+  {
+     "label": "kogo? czego шиї",
+    "answer": "szyi"
+  } 
+]

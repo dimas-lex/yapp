@@ -1,10 +1,10 @@
 [
   {
-     "label": "kogo? czego бутилка молока молока",
+     "label": "kogo? czego бутилка молока",
     "answer": "butelka mleka"
   },
   {
-     "label": "kogo? czego торба цукру",
+     "label": "kogo? czego торебка цукру",
     "answer": "torebka cukru"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "niewiele czasu"
   },
   {
-     "label": "kogo? czego трошки серплівості",
+     "label": "kogo? czego трошки терпливості",
     "answer": "trochę cierpliwości"
   },
   {
@@ -68,15 +68,15 @@
     "answer": "dziesięciu chłopców"
   },
   {
-     "label": "kogo? czego пять Студентек",
+     "label": "kogo? czego пять студентек",
     "answer": "pięć studentek"
   },
   {
      "label": "kogo? czego шість книжок",
-    "answer": "sześć skiążek"
+    "answer": "sześć książek"
   },
   {
-     "label": "kogo? czego сім туристів",
+     "label": "kogo? czego сім тигрів",
     "answer": "siedem tygrysów"
   },
   {
@@ -84,13 +84,16 @@
     "answer": "osiem zeszytów"
   },
   {
-     "label": "kogo? czego десять яблук",
+     "label": "kogo? czego десять яїців",
     "answer": "dziesięć jajek"
   },
   {
-     "label": "kogo? czego завидую вам тої вспанялох подорожі до африкі",
-    "answer": "zazdroszczę wam tej wspaniałej podróży do afryki"
-  },
+    "label": "kogo? czego завидую вам подорожі",
+   "answer": "zazdroszczę wam podróży"
+ },  {
+  "label": "kogo? czego  тої вспанялох подорожі до африкі",
+ "answer": "tej wspaniałej podróży do afryki"
+},
   {
      "label": "kogo? czego без цукру",
     "answer": "bez cukru"
@@ -104,7 +107,7 @@
     "answer": "nieczynne od miesiąca"
   },
   {
-     "label": "kogo? czego закритий до середи",
+     "label": "kogo? czego закритий від середи",
     "answer": "zamknięty od środy"
   },
   {
@@ -116,7 +119,7 @@
     "answer": "naprzeciwko małego parku"
   },
   {
-     "label": "kogo? czego посеред красивих квітів",
+     "label": "kogo? czego всередині красивих квітів",
     "answer": "wśród pięknych kwiatów"
   },
   {
@@ -160,11 +163,11 @@
     "answer": "unikać słońca"
   },
   {
-     "label": "kogo? czego прагнути щастя",
-    "answer": "pragną szczięścia"
+     "label": "kogo? czego прагнуть щастя",
+    "answer": "pragną szczęścia"
   }, 
   {
-     "label": "kogo? czego сподівамися милих гостей",
+     "label": "kogo? czego сподіваємося милих гостей",
     "answer": "spodziewamy się miłych gości"
   },
   {
@@ -200,7 +203,7 @@
     "answer": "bezdomnego kota"
   },
   {
-     "label": "kogo? czego правдивого актора",
+     "label": "kogo? czego правдивого артиста",
     "answer": "prawdziwego artysty"
   },
   {
@@ -216,11 +219,11 @@
     "answer": "miłego pana"
   },
   {
-     "label": "kogo? czego lm. ночі лічба і поєдинча",
+     "label": "kogo? czego ночі lm. і lp",
     "answer": "nocy"
   },
   {
-    "label": "kogo? czego lm подвірек",
+    "label": "kogo? czego lm подвір'я",
    "answer": "podwórzy"
  },{
   "label": "kogo? czego подвіря (одно)",

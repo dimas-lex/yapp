@@ -3,7 +3,7 @@ import list from './list.json';
 import { StatisticDetails } from './StatisticDetails';
 import './Testing.css';
 
-
+console.log('testing')
 export const Testing = () => {
   const [activeIndex, setIndex] = useState(1);
   const [lastHope, setLastHope] = useState(0);
@@ -15,29 +15,31 @@ export const Testing = () => {
   const [formClasses, setFormClasses] = useState('');
   const [answerClasses, setAnswerClasses] = useState('');
 
-  const getRandomArbitrary = useCallback((max: number, min = 0, level = 0): number => {
-
-    if (level > 5 && rightOffset < 100) {
+  const getRandomArbitrary = useCallback((max: number, min = 0, level = 0): number => { 
+    if (level > 10 && rightOffset < 100) {
       setRightOffset(rightOffset + 10);
       setLeftOffset(leftOffset + 10);
     }
-    const right = (Math.min(100, rightOffset)) / 100;
-    const left = (Math.max(1, leftOffset)) / 100;
+    const newMax = max * (Math.min(100, rightOffset)) / 100;
+    const newMin = max * (Math.max(1, leftOffset)) / 100;
 
-    const newIndex = Math.round(Math.random() * (max *right - min) + min * left);
-    console.log(`newIndex=${newIndex} statistic[newIndex] = ${statistic[newIndex]}`, statistic)
+    const newIndex = Math.round(Math.random() * (newMax - newMin) + newMin);
+    console.log(`newMax=${newMax} newMin = ${newMin} newIndex= ${newIndex} score= ${statistic[newIndex]}`);
+
     if (statistic[newIndex] > 5 && level < 30) {
       setLastHope(level);
       return getRandomArbitrary(max, min, level + 1);
     }
 
     return newIndex;
-  }, [statistic]);
+  }, [statistic, leftOffset, rightOffset]);
 
 
   const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
+
     event.stopPropagation();
     event.preventDefault();
+    console.log('==========')
     const correctAnswer = list[activeIndex]?.answer;
 
     if (String(answer).toLocaleLowerCase() === String(correctAnswer).toLocaleLowerCase()) {
@@ -58,7 +60,7 @@ export const Testing = () => {
       });
     }
     setAnswer('');
-  }, [list, activeIndex, answer, getRandomArbitrary, statistic])
+  }, [ activeIndex, answer, getRandomArbitrary, statistic])
 
   useEffect(() => {
     if (status === 1) setFormClasses('form--success');

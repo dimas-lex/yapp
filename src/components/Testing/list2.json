@@ -1,0 +1,376 @@
+[ 
+  {
+    "label": "kogo? czego кілька помилок",
+    "answer": "kilka błędów"
+  },
+  {
+    "label": "kogo? czego небагато часу",
+    "answer": "niewiele czasu"
+  },
+  {
+    "label": "kogo? czego трошки терпливості",
+    "answer": "trochę cierpliwości"
+  }, 
+  {
+    "label": "kogo? czego пять туристів",
+    "answer": "pięciu turystów"
+  },
+  {
+    "label": "kogo? czego десять хлопців",
+    "answer": "dziesięciu chłopców"
+  },  
+  {
+    "label": "kogo? czego завидую вам подорожі",
+    "answer": "zazdroszczę wam podróży"
+  }, 
+  {
+    "label": "kogo? czego непрацює від місяця",
+    "answer": "nieczynne od miesiąca"
+  },
+  {
+    "label": "kogo? czego закритий від середи",
+    "answer": "zamknięty od środy"
+  }, 
+  {
+    "label": "kogo? czego всередині красивих квітів",
+    "answer": "wśród pięknych kwiatów"
+  }, 
+  {
+    "label": "kogo? czego жичими вам веселих свят",
+    "answer": "życzymy wam wiesiołych świąt"
+  }, 
+  {
+    "label": "kogo? czego прагнуть щастя",
+    "answer": "pragną szczęścia"
+  }, 
+  {
+    "label": "kogo? czego бажають підвишки 1",
+    "answer": "żądają podwyżki"
+  }, 
+  {
+    "label": "kogo? czego lm подвір'я",
+    "answer": "podwórzy"
+  },
+  {
+    "label": "kogo? czego подвіря (одно)",
+    "answer": "podwórza"
+  }, 
+  {
+    "label": "kogo? czego lm листя",
+    "answer": "liści"
+  },
+  {
+    "label": "kogo? czego lm покоїв",
+    "answer": "pokoi"
+  }, 
+  {
+    "label": "kogo? czego столу",
+    "answer": "stołu"
+  }, 
+  {
+    "label": "kogo? czego торту",
+    "answer": "tortu"
+  }, 
+  {
+    "label": "kogo? czego вилки",
+    "answer": "widelca"
+  },
+  {
+    "label": "kogo? czego тарілки",
+    "answer": "talerza"
+  }, 
+  {
+    "label": "kogo? czego шлунка",
+    "answer": "żołądka"
+  },
+  {
+    "label": "kogo? czego вроцлава",
+    "answer": "wrocławia"
+  },
+  {
+    "label": "kogo? czego zbiór publikacji prasowych ukazujący się codziennie.",
+    "answer": "dziennika"
+  },
+  {
+    "label": "kogo? czego століка",
+    "answer": "stolika"
+  }, 
+  {
+    "label": "kogo? czego маку",
+    "answer": "maku"
+  },
+  {
+    "label": "kogo? czego тлуму",
+    "answer": "tłumu"
+  },
+  {
+    "label": "kogo? czego лісу",
+    "answer": "lasu"
+  },
+  {
+    "label": "kogo? czego смутку",
+    "answer": "smutku"
+  },
+  {
+    "label": "kogo? czego трамваю",
+    "answer": "tramwaju"
+  },
+  {
+    "label": "kogo? czego Лондину",
+    "answer": "Londynu"
+  },
+  {
+    "label": "kogo? czego ПАрижа",
+    "answer": "Paryża"
+  },
+  {
+    "label": "kogo? czego Берліна",
+    "answer": "Berlina"
+  },
+  {
+    "label": "kogo? czego Риму",
+    "answer": "Rzymu"
+  },
+  {
+    "label": "kogo? czego п'ятниці ",
+    "answer": "piątku"
+  },
+  {
+    "label": "огірка",
+    "answer": "ogórka"
+  },
+  {
+    "label": "макаронів",
+    "answer": "makaronu"
+  },
+  {
+    "label": "соку",
+    "answer": "soku"
+  },
+  {
+    "label": "клею",
+    "answer": "kleju"
+  },
+
+  {
+    "label": "метра",
+    "answer": "metra"
+  },
+  {
+    "label": "гарника",
+    "answer": "garnka"
+  },
+  {
+    "label": "теніса",
+    "answer": "tenisa"
+  },
+  {
+    "label": "бриджа",
+    "answer": "brydża"
+  },
+  {
+    "label": "брюха",
+    "answer": "brzucha"
+  },
+  {
+    "label": "вальса",
+    "answer": "walca"
+  },
+  {
+    "label": "налесника",
+    "answer": "naleśnika"
+  },
+  {
+    "label": "майстера жахів ",
+    "answer": "mistrza grozy"
+  },
+  {
+    "label": "псевдонім",
+    "answer": "pseudonim"
+  },
+  {
+    "label": "поміж",
+    "answer": "pomiędzy"
+  },
+  {
+    "label": "це людина успіху",
+    "answer": "jest człowiekiem sukcesu"
+  },
+  {
+    "label": "За допомогою своїх друзів",
+    "answer": "Za pomocą swoich przyjaciół"
+  },
+  {
+    "label": "отримує виправдувальний вирок",
+    "answer": "dostaje uniewinniający wyrok"
+  },
+  {
+    "label": "не задовольняє царя",
+    "answer": "nie satysfakcjonuje króla"
+  },
+  {
+    "label": "проклинає його",
+    "answer": "rzuca na niego klątwę"
+  },
+  {
+    "label": "втрачає вагу тривожно швидко",
+    "answer": "chudnie w zastraszającym tempie"
+  },
+  {
+    "label": "змушує його",
+    "answer": "zmusza go"
+  },
+  {
+    "label": "звинувачує в аварії свою дружину",
+    "answer": "wini za wypadek żonę"
+  },
+  {
+    "label": "Пригнічений і зневірений",
+    "answer": "Przygnębiony i zdesperowany"
+  },
+  {
+    "label": "oni нього висміяли",
+    "answer": "oni go wyśmiali"
+  },
+  {
+    "label": "звертається (він) до свого друга",
+    "answer": "zwraca się do swojego przyjaciela"
+  },
+  {
+    "label": "підсумовуючи",
+    "answer": "Podsumowując"
+  },
+  {
+    "label": "тюльпана",
+    "answer": "tulipana"
+  },
+  {
+    "label": "нема проблем",
+    "answer": "nie ma problemu"
+  },
+  {
+    "label": "не шуми",
+    "answer": "nie rób hałasu"
+  },
+  {
+    "label": "Cząstek",
+    "answer": "Cząstek"
+  },
+  {
+    "label": "перед кабінетом стояли двоє чоловіків",
+    "answer": "Przed biurem stali dwaj mężczyźni"
+  },
+  {
+    "label": "Хлопчики проти дівчаток",
+    "answer": "Chłopcy przeciwko dziewczynkom"
+  },
+  {
+    "label": "Коротко стрижене волосся",
+    "answer": "Krótko przystrzyżone włosy"
+  },
+  {
+    "label": "(Я) користувався їх послуг",
+    "answer": "korzystałem z ich usług"
+  },
+  {
+    "label": "врая з парою моїх друзів",
+    "answer": "wraz z paroma moimi przyjaciółmi"
+  },
+  {
+    "label": "більше людей використовують",
+    "answer": "więcej osób używa"
+  },
+  {
+    "label": "(Я) від місяця без единого грошей",
+    "answer": "jestem od miesiąca bez jednego pieniądza"
+  },
+  {
+    "label": "легкий шлак",
+    "answer": "łatwy szlak"
+  },
+  {
+    "label": "їздити роверем",
+    "answer": "jeździć rowerem"
+  },
+  {
+    "label": "довіряєш своєму партнеру",
+    "answer": "ufasz swojemu partnerowi"
+  },
+  {
+    "label": "моїх  предків",
+    "answer": "moich przodków"
+  },
+  {
+    "label": "кохаю моїх дзядків",
+    "answer": "kocham moich dziadków"
+  },
+  {
+    "label": "доброго словника",
+    "answer": "dobrego słownika"
+  },
+  {
+    "label": "двох студентув учаться",
+    "answer": "dwóch studentów uczy się"
+  },
+  {
+    "label": "думайте",
+    "answer": "myślcie"
+  },
+  {
+    "label": "запізніться",
+    "answer": "spóźnijcie się"
+  },
+  {
+    "label": "стресуйте",
+    "answer": "stresujcie się"
+  },
+  {
+    "label": "зїжте",
+    "answer": "zjedzcie"
+  },
+  {
+    "label": "виспітьсе",
+    "answer": "wyśpijcie się"
+  },
+  {
+    "label": "алкоголю",
+    "answer": "Alkoholu"
+  },
+  {
+    "label": "8 шматочків цяста бананового",
+    "answer": "Osiem kawałków ciasta bananowego"
+  },
+  {
+    "label": "не люблю хліба",
+    "answer": "nie lubię chleba"
+  },
+  {
+    "label": "прошу о підтвердження присутності",
+    "answer": "Proszę o potwierdzenie obecności"
+  },
+  {
+    "label": "з приємностю завядо",
+    "answer": "Z przyjemnością zawiadamiamy"
+  },
+  {
+    "label": "мешкаю у польскій родині",
+    "answer": "mieszkam u polskiej rodziny"
+  },
+  {
+    "label": "то для мене честь(заш)",
+    "answer": "To dla mnie zaszczyt"
+  },
+  {
+    "label": "була не була",
+    "answer": "Było nie było"
+  },
+  {
+    "label": "так чи іначе",
+    "answer": "tak czy owak"
+  },
+  {
+    "label": "якби б мав пеньодзи",
+    "answer": "gdybym miał pieniądze"
+  }
+]
+ 

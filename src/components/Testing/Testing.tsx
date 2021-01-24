@@ -3,7 +3,7 @@ import list from './list.json';
 import { StatisticDetails } from './StatisticDetails';
 import './Testing.css';
 
-console.log('testing')
+
 export const Testing = () => {
   const [activeIndex, setIndex] = useState(1);
   const [lastHope, setLastHope] = useState(0);
@@ -16,7 +16,7 @@ export const Testing = () => {
   const [answerClasses, setAnswerClasses] = useState('');
 
   const getRandomArbitrary = useCallback((max: number, min = 0, level = 0): number => { 
-    if (level > 10 && rightOffset < 100) {
+    if (level > 4 && rightOffset < 100) {
       setRightOffset(rightOffset + 10);
       setLeftOffset(leftOffset + 10);
     }
@@ -26,7 +26,7 @@ export const Testing = () => {
     const newIndex = Math.round(Math.random() * (newMax - newMin) + newMin);
     console.log(`newMax=${newMax} newMin = ${newMin} newIndex= ${newIndex} score= ${statistic[newIndex]}`);
 
-    if (statistic[newIndex] > 5 && level < 30) {
+    if (statistic[newIndex] > 3 && level < 30) {
       setLastHope(level);
       return getRandomArbitrary(max, min, level + 1);
     }

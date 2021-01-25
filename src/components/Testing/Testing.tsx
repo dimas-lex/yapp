@@ -73,7 +73,7 @@ export const Testing = () => {
       setFormClasses('');
       setAnswerClasses('');
       setStatus(0)
-    }, 2000)
+    }, 3000)
   }, [status]);
 
   return (

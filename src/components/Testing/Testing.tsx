@@ -1,14 +1,28 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import list from './list.json';
+import { FileNames } from '../FileSelector'; 
 import { StatisticDetails } from './StatisticDetails';
 import './Testing.css';
 
+const files = {
+  list: require('./list.json'), 
+  list1: require('./list1.json'), 
+  list2: require('./list2.json'), 
+  list3: require('./list3.json'), 
+  list4: require('./list4.json'), 
+  list5: require('./list5.json'), 
+}; 
 
-export const Testing = () => {
+type TestingProps = {
+  fileName: FileNames;
+};
+
+export const Testing = ({fileName}: TestingProps) => { 
+  const list = files[fileName]; 
+
   const [activeIndex, setIndex] = useState(1);
   const [lastHope, setLastHope] = useState(0);
   const [rightOffset, setRightOffset] = useState(30);
-  const [leftOffset, setLeftOffset] = useState(1);
+  const [leftOffset, setLeftOffset] = useState(0);
   const [statistic, setStatistic] = useState({} as { [key: number]: number });
   const [answer, setAnswer] = useState('');
   const [status, setStatus] = useState(0);
@@ -20,8 +34,8 @@ export const Testing = () => {
       setRightOffset(rightOffset + 10);
       setLeftOffset(leftOffset + 10);
     }
-    const newMax = max * (Math.min(100, rightOffset)) / 100;
-    const newMin = max * (Math.max(1, leftOffset)) / 100;
+    const newMax = Math.min(list.length, rightOffset);
+    const newMin = leftOffset;
 
     const newIndex = Math.round(Math.random() * (newMax - newMin) + newMin);
     console.log(`newMax=${newMax} newMin = ${newMin} newIndex= ${newIndex} score= ${statistic[newIndex]}`);
@@ -35,11 +49,9 @@ export const Testing = () => {
   }, [statistic, leftOffset, rightOffset]);
 
 
-  const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
-
+  const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => { 
     event.stopPropagation();
-    event.preventDefault();
-    console.log('==========')
+    event.preventDefault(); 
     const correctAnswer = list[activeIndex]?.answer;
 
     if (String(answer).toLocaleLowerCase() === String(correctAnswer).toLocaleLowerCase()) {

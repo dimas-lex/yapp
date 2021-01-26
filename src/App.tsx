@@ -1,28 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react'; 
 import './App.css';
-import {Testing } from './components/Testing';
-import { BorderedBox } from './components/BorderedBox/BorderedBox';
+import {Testing } from './components/Testing'; 
+import { FileSelector, FileNames } from './components/FileSelector';
+ 
 
-const array = [{
-  label: "what0",
-  key: "what0",
-}, {
-  label: "what1",
-  key: "what1",
-}, {
-  label: "what2",
-  key: "what2",
-}, {
-  label: "what3",
-  key: "what3",
-}]
 
 function App() {
+  const [file, setFile] = useState<FileNames>('list');
+
   return (
     <div className="App">
       <header className="App-header"> 
-        <Testing />  
+        <FileSelector file={file} onSelect={setFile} />
+        <Testing fileName={file} />  
       </header>
     </div>
   );

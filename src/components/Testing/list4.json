@@ -17,7 +17,7 @@
   },
   {
     "label": "здається мені, що",
-    "answer": "wydaje mi się, że"
+    "answer": "wydaję mi się że"
   },
   {
     "label": "познала 7 англійсікх моряків",
@@ -28,7 +28,7 @@
     "answer": "na zakończenie chciałbym"
   },
   {
-    "label": "дві канаркі",
+    "label": "ma дві канаркі",
     "answer": "ma dwa kanarki"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "lubimy zwierzęta"
   },
   {
-    "label": "2018",
+    "label": "(коли) 2018",
     "answer": "dwa tysiące osiemnastego"
   },
   {
@@ -68,15 +68,15 @@
     "answer": "Ludzie mają różne zainteresowania"
   },
   {
-    "label": "хтось колекціонує авто",
-    "answer": "ktoś kolekcjonować samochody"
+    "label": "колекціоновати самоходи",
+    "answer": "kolekcjonować samochody"
   },
   {
     "label": "ніколи не танцював",
     "answer": "nigdy nie tańczyłem"
   },
   {
-    "label": "не може тоді заснути",
+    "label": "не можеш тоді заснути",
     "answer": "nie możesz wtedy zasnąć"
   },
   {
@@ -84,7 +84,7 @@
     "answer": "przez całą noc"
   },
   {
-    "label": "багато лижників іздить",
+    "label": "wielu лижників іздить",
     "answer": "wielu narciaży jeździ"
   },
   {
@@ -109,7 +109,7 @@
   },
   {
     "label": "почути неповториму атмосферу Татр",
-    "answer": "poczuć niepowtarzalną atmosferę Tart"
+    "answer": "poczuć niepowtarzalną atmosferę Tatr"
   },
   {
     "label": "(я) повертався багато разів",
@@ -133,7 +133,7 @@
   },
   {
     "label": "трохи труднійший на чорний став (путь)",
-    "answer": "trochę trudniejszy na Czarne Staw"
+    "answer": "trochę trudniejszy na Czarny Staw"
   },
   {
     "label": "того літа поїде(Я)",
@@ -141,7 +141,10 @@
   },
   {
     "label": "відпочиває ментальнє",
-    "answer": "odpoczywa mentalnie i odczuwa moc natury"
+    "answer": "odpoczywa mentalnie"
+  },  {
+    "label": "відчуває силу натури",
+    "answer": "odczuwa moc natury"
   },
   {
     "label": "більшість осіб любить музику",
@@ -152,8 +155,12 @@
     "answer": "jest naszym przyjacielem"
   },
   {
-    "label": "починаючи від телефонів",
-    "answer": "zaczynając od telefonów i kończąc na zegarach"
+    "label": "починаючи від телефонів мобільних",
+    "answer": "zaczynając od telefonów komórkowych"
+  },
+  {
+    "label": "закіньчуючи годинниками",
+    "answer": "kończąc na zegarach"
   },
   {
     "label": "різні люди слухають",
@@ -181,7 +188,7 @@
   },
   {
     "label": "зискати більше сили",
-    "answer": "zyskać więcej siły "
+    "answer": "zyskać więcej siły"
   },
   {
     "label": "в праці також мені вона помагає",
@@ -205,7 +212,7 @@
   },
   {
     "label": "я почну",
-    "answer": "z zacznę"
+    "answer": "ja zacznę"
   },
   {
     "label": "родіци виїдуть",
@@ -229,6 +236,6 @@
   },
   {
     "label": "приймемо душ",
-    "answer": "weżmiemy przysznic"
+    "answer": "weźmiemy prysznic"
   } 
 ]

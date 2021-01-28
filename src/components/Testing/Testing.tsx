@@ -34,8 +34,9 @@ export const Testing = ({fileName}: TestingProps) => {
       setRightOffset(rightOffset + 10);
       setLeftOffset(leftOffset + 10);
     }
-    const newMax = Math.min(list.length, rightOffset);
-    const newMin = leftOffset;
+
+    const newMax = Math.min(list.length -1, rightOffset);
+    const newMin = Math.max(0, Math.min(leftOffset, list.length));
 
     const newIndex = Math.round(Math.random() * (newMax - newMin) + newMin);
     console.log(`newMax=${newMax} newMin = ${newMin} newIndex= ${newIndex} score= ${statistic[newIndex]}`);
@@ -46,7 +47,7 @@ export const Testing = ({fileName}: TestingProps) => {
     }
 
     return newIndex;
-  }, [statistic, leftOffset, rightOffset]);
+  }, [statistic, leftOffset, rightOffset, list]);
 
 
   const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => { 
@@ -54,7 +55,7 @@ export const Testing = ({fileName}: TestingProps) => {
     event.preventDefault(); 
     const correctAnswer = list[activeIndex]?.answer;
 
-    if (String(answer).toLocaleLowerCase() === String(correctAnswer).toLocaleLowerCase()) {
+    if (String(answer).trim().toLocaleLowerCase() === String(correctAnswer).trim().toLocaleLowerCase()) {
       setStatistic({
         ...statistic,
         [activeIndex]: (statistic[activeIndex] ? statistic[activeIndex] : 0) + 1,
@@ -72,7 +73,7 @@ export const Testing = ({fileName}: TestingProps) => {
       });
     }
     setAnswer('');
-  }, [ activeIndex, answer, getRandomArbitrary, statistic])
+  }, [ activeIndex, answer, getRandomArbitrary, statistic, list])
 
   useEffect(() => {
     if (status === 1) setFormClasses('form--success');

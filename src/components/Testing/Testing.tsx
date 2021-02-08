@@ -1,24 +1,25 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { FileNames } from '../FileSelector'; 
+import { FileNames } from '../FileSelector';
 import { StatisticDetails } from './StatisticDetails';
 import './Testing.css';
 
 const files = {
-  list: require('./list.json'), 
-  list1: require('./list1.json'), 
-  list2: require('./list2.json'), 
-  list3: require('./list3.json'), 
-  list4: require('./list4.json'), 
-  list5: require('./list5.json'), 
-}; 
+  list: require('./list.json'),
+  list1: require('./list1.json'),
+  list2: require('./list2.json'),
+  list3: require('./list3.json'),
+  list4: require('./list4.json'),
+  list5: require('./list5.json'),
+};
 
 type TestingProps = {
   fileName: FileNames;
 };
 
-export const Testing = ({fileName}: TestingProps) => { 
-  const list = files[fileName]; 
+export const Testing = ({ fileName }: TestingProps) => {
+  const list = files[fileName];
 
+  const [diffLevel, _setDiffLevel] = useState(1);
   const [activeIndex, setIndex] = useState(1);
   const [lastHope, setLastHope] = useState(0);
   const [rightOffset, setRightOffset] = useState(30);
@@ -29,30 +30,31 @@ export const Testing = ({fileName}: TestingProps) => {
   const [formClasses, setFormClasses] = useState('');
   const [answerClasses, setAnswerClasses] = useState('');
 
-  const getRandomArbitrary = useCallback((max: number, min = 0, level = 0): number => { 
-    if (level > 4 && rightOffset < 100) {
+ 
+  const getRandomArbitrary = useCallback((max: number, min = 0, hopeCount = 0): number => {
+    if (hopeCount >= 30 && rightOffset < list.length) {
       setRightOffset(rightOffset + 10);
       setLeftOffset(leftOffset + 10);
     }
 
-    const newMax = Math.min(list.length -1, rightOffset);
+    const newMax = Math.min(list.length - 1, rightOffset);
     const newMin = Math.max(0, Math.min(leftOffset, list.length));
 
     const newIndex = Math.round(Math.random() * (newMax - newMin) + newMin);
     console.log(`newMax=${newMax} newMin = ${newMin} newIndex= ${newIndex} score= ${statistic[newIndex]}`);
 
-    if (statistic[newIndex] > 3 && level < 30) {
-      setLastHope(level);
-      return getRandomArbitrary(max, min, level + 1);
+    if (statistic[newIndex] >= diffLevel && hopeCount < 30) {
+      setLastHope(hopeCount);
+      return getRandomArbitrary(max, min, hopeCount + 1);
     }
 
     return newIndex;
   }, [statistic, leftOffset, rightOffset, list]);
 
 
-  const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => { 
+  const onSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
     event.stopPropagation();
-    event.preventDefault(); 
+    event.preventDefault();
     const correctAnswer = list[activeIndex]?.answer;
 
     if (String(answer).trim().toLocaleLowerCase() === String(correctAnswer).trim().toLocaleLowerCase()) {
@@ -73,7 +75,7 @@ export const Testing = ({fileName}: TestingProps) => {
       });
     }
     setAnswer('');
-  }, [ activeIndex, answer, getRandomArbitrary, statistic, list])
+  }, [activeIndex, answer, getRandomArbitrary, statistic, list])
 
   useEffect(() => {
     if (status === 1) setFormClasses('form--success');
@@ -89,15 +91,31 @@ export const Testing = ({fileName}: TestingProps) => {
     }, 3000)
   }, [status]);
 
+  const setDiffLevel = (l: number) => {
+    if (isNaN(l)) {
+      _setDiffLevel(0);
+    }
+    _setDiffLevel(l)
+  }
+
   return (
     <>
       <div className="statistic">
         <StatisticDetails className="statistic__item" statistic={statistic} />
+        <div className="statistic__item">Level:
+        <input
+            className="statistic__item-input"
+            value={diffLevel} onChange={(e) => setDiffLevel(parseInt(e.target.value))} />
+        </div>
+
         <div className="statistic__item">part of list from:
-        <input  className="statistic__item-input" value={leftOffset} onChange={(e) => setLeftOffset(parseInt(e.target.value))} /></div>
+        <input
+            className="statistic__item-input"
+            value={leftOffset} onChange={(e) => setLeftOffset(parseInt(e.target.value))} />
+        </div>
 
         <div className="statistic__item">to:
-          <input  className="statistic__item-input" value={rightOffset} onChange={(e) => setRightOffset(parseInt(e.target.value))} />
+          <input className="statistic__item-input" value={rightOffset} onChange={(e) => setRightOffset(parseInt(e.target.value))} />
         </div>
         <div className="statistic__item">current index: {activeIndex}</div>
         <div className="statistic__item">current score: {statistic[activeIndex] || 0}</div>

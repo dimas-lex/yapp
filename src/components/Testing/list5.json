@@ -1,6 +1,202 @@
 [
   {
-    "label": "За допомогою своїх друзів",
-    "answer": "Za pomocą swoich przyjaciół"
-  }    
+    "label": "хотів би зачати від",
+    "answer": "chciałbym zacząć od"
+  },
+  {
+    "label": "хочу додати",
+    "answer": "chcę dodać"
+  },
+  {
+    "label": "(вони) пруть (речі)",
+    "answer": "piorą"
+  },
+  {
+    "label": "(він) пре (речі)",
+    "answer": "pierze"
+  },
+  {
+    "label": "не люблю 3-х шченят",
+    "answer": "Nie lubię trojga szczeniąt"
+  },
+  {
+    "label": "",
+    "answer": "uczy czterdziestu studentów"
+  },
+  {
+    "label": "",
+    "answer": "troje uczniów"
+  },
+  {
+    "label": "",
+    "answer": "sąsiedzi"
+  },
+  {
+    "label": "",
+    "answer": "sąsiad"
+  },
+  {
+    "label": "",
+    "answer": "kup bazylię"
+  },
+  {
+    "label": "",
+    "answer": "jeść jak ptaszek"
+  },
+  {
+    "label": "",
+    "answer": "je jest pięć kobiet"
+  },
+  {
+    "label": "",
+    "answer": "jest trzech wujków"
+  },
+  {
+    "label": "",
+    "answer": "było pięciu braci"
+  },
+  {
+    "label": "",
+    "answer": "jest dziesięciu turystów"
+  },
+  {
+    "label": "",
+    "answer": "dwaj wujkowie"
+  },
+  {
+    "label": "",
+    "answer": "trzej policjanci"
+  },
+  {
+    "label": "",
+    "answer": "czterej chłopcy"
+  },
+  {
+    "label": "",
+    "answer": "czterech fryzjerów pracuje"
+  },
+  {
+    "label": "",
+    "answer": "dwaj studenci piszą"
+  },
+  {
+    "label": "",
+    "answer": "dziewięciu informatyków"
+  },
+  {
+    "label": "",
+    "answer": "sześcioro cieląt"
+  },
+  {
+    "label": "консерва сардин",
+    "answer": "puszka sardynek"
+  },
+  {
+    "label": "принц",
+    "answer": "książę"
+  },
+  {
+    "label": "",
+    "answer": "studiują"
+  },
+  {
+    "label": "",
+    "answer": "zobaczyć dużo zwierząt"
+  },
+  {
+    "label": "",
+    "answer": "nie zna tej pani"
+  },
+  {
+    "label": "",
+    "answer": "interesuje się starymi fotografiami"
+  },
+  {
+    "label": "",
+    "answer": "spodoba się dzieciom"
+  },
+  {
+    "label": "",
+    "answer": "z przyjaciółmi"
+  },
+  {
+    "label": "",
+    "answer": "poza nagrodami pieniężnymi"
+  },
+  {
+    "label": "",
+    "answer": "przyglądała się małemu kotu"
+  },
+  {
+    "label": "",
+    "answer": "gdybyś miał dużo pieniędzy"
+  },
+  {
+    "label": "",
+    "answer": "dać pieniądze na nowe ubrania"
+  },
+  {
+    "label": "ja (m) zacząć",
+    "answer": "zacząłem"
+  },
+  {
+    "label": "ty (f) zacząć",
+    "answer": "zaczęłaś"
+  },
+  {
+    "label": "они jeść",
+    "answer": "jedzą"
+  },
+  {
+    "label": "ja (m) Czas przeszły jeść ",
+    "answer": "jadłem"
+  },
+  {
+    "label": "ty (f) Czas przeszły jeść ",
+    "answer": "jadłaś"
+  },
+  {
+    "label": "їжджу",
+    "answer": "jeżdżę"
+  },
+  {
+    "label": "їздиш",
+    "answer": "jeździsz"
+  },
+  {
+    "label": "(вони) їздять",
+    "answer": "jeżdżą"
+  },
+  {
+    "label": "Tryb rozkazujący ty їдь",
+    "answer": "jeźdź"
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  },
+  {
+    "label": "",
+    "answer": ""
+  }
 ]
